@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sobre nosotros</title>
+</head>
+<body>
+    <!-- Página "Sobre nosotros" (rama feature-iker) -->
+    <h1>Sobre nosotros</h1>
+    <p>
+        Somos <strong>Jeffry</strong> e <strong>Iker</strong>, estudiantes de la carrera de
+        <em>Tecnologías de la Información</em> de la Universidad de las Fuerzas Armadas
+        <mark>ESPE</mark>, Sede Santo Domingo. Este sitio web fue desarrollado en pareja
+        utilizando únicamente <strong>HTML</strong> y versionado con Git y GitHub.
+    </p>
+
+    <p><a href="#integrantes">Integrantes</a> | <a href="#objetivos">Objetivos</a> | <a href="#contacto">Contacto</a></p>
+
+    <hr>
+
+    <h2 id="integrantes">Integrantes</h2>
+    <table border="1">
+        <caption>Datos de los integrantes de la pareja</caption>
+        <tr>
+            <th colspan="4">Fundamentos de Sistemas Web - Nivel 4</th>
+        </tr>
+        <tr>
+            <th>Estudiante</th>
+            <th>Nombre</th>
+            <th>Rama de trabajo</th>
+            <th>Responsabilidad</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Jeffry Vera</td>
+            <td>feature-jeffry</td>
+            <td>Página principal y navegación</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Iker Guallo</td>
+            <td>feature-iker</td>
+            <td>Páginas secundarias con listas, tablas y multimedia</td>
+        </tr>
+    </table>
+
+    <h3>Lo que hemos aprendido en la unidad</h3>
+    <ul>
+        <li>Fundamentos de la Web
+            <ul>
+                <li>Internet y World Wide Web</li>
+                <li>Protocolo HTTP y estructura de una URL</li>
+            </ul>
+        </li>
+        <li>HTML
+            <ul>
+                <li>Encabezados, párrafos y formato de texto</li>
+                <li>Imágenes, enlaces, listas y tablas</li>
+                <li>Formularios y contenido multimedia</li>
+            </ul>
+        </li>
+        <li>Versionamiento
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h2 id="objetivos">Nuestros objetivos</h2>
+    <ol>
+        <li>Aprender a estructurar páginas web con HTML.</li>
+        <li>Trabajar en equipo usando ramas en Git.</li>
+        <li>Publicar y mantener nuestro proyecto en GitHub.</li>
+    </ol>
+
+    <hr>
+
+    <h2 id="contacto">Contáctanos</h2>
+    <form action="#" method="post">
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required maxlength="50">
+        </p>
+        <p>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+        </p>
+        <p>
+            <label for="carrera">Carrera:</label>
+            <select id="carrera" name="carrera">
+                <option value="ti">Tecnologías de la Información</option>
+                <option value="software">Software</option>
+                <option value="sistemas">Sistemas</option>
+            </select>
+        </p>
+        <p>
+            Turno:
+            <label><input type="radio" name="turno" value="manana" checked> Mañana</label>
+            <label><input type="radio" name="turno" value="tarde"> Tarde</label>
+        </p>
+        <p>
+            Temas de interés:
+            <label><input type="checkbox" name="interes" value="html"> HTML</label>
+            <label><input type="checkbox" name="interes" value="git"> Git</label>
+        </p>
+        <p>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="40" minlength="10" placeholder="Escribe tu mensaje"></textarea>
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </p>
+    </form>
+
+    <hr>
+
+    <p>
+        <a href="index.html">Inicio</a> |
+        <a href="sobre-nostros.html">Sobre nosotros</a> |
+        <a href="pasatiempos.html">Pasatiempos</a>
+    </p>
+</body>
+</html>
